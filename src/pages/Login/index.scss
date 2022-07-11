@@ -1,0 +1,49 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('~/src/assests/preview.jpg') no-repeat;
+  background-size: cover;
+  .login-container {
+    width: 800px;
+    height: 400px;
+    background: transparent;
+    opacity: 1;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px;
+    display: flex;
+    overflow: hidden;
+    .login-container-l {
+      width: 350px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .title {
+        width: 350px;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+          color: #fff;
+        }
+      }
+    }
+    .login-container-r {
+      height: 100%;
+      background-color: #fff;
+      width: 450px;
+      display: flex;
+      align-items: center;
+      .ant-form {
+        width: 100%;
+        .ant-btn {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
